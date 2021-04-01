@@ -1,0 +1,16 @@
+{
+  "name": "hn-monitor",
+  "version": "1.0.0",
+  "description": "HackerNews monitoring for urls",
+  "main": "monitor_hn_for_url.js",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "monitor": "node monitor_hn_for_url.js"
+  },
+  "author": "Neil Kakkar",
+  "license": "ISC"
+}
