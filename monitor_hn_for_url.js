@@ -35,6 +35,7 @@ async function run(domain='neilkakkar.com') {
             return data.url;
         }
     }
+    console.log("No new entry found")
 }
 
 run()
